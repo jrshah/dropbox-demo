@@ -34,3 +34,4 @@ Time spent: `15hrs`
 
 ### Walkthrough
 ![Video Walkthrough](https://github.com/jrshah/dropbox-demo/blob/master/walkthrough.gif)
+![Video Walkthrough](https://github.com/jrshah/dropbox-demo/blob/master/walkthroughs.gif)
