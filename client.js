@@ -56,7 +56,9 @@ function addFile(rootpath) {
 	let options = {url: url, method: "PUT"}
 
 	curlreq.request(options, function (err, data) {
-		console.log(err)
+		if(err){
+			console.log(err)
+		}
 	})
 	console.log("File created @" + rootpath)
 }
@@ -66,7 +68,9 @@ function removeDirectory(rootpath) {
 	let options = {url: url, method: "DELETE"}
 
 	curlreq.request(options, function (err, data) {
-		console.log(err)
+		if(err){
+			console.log(err)
+		}
 	})
 	console.log("Directory removed @ " + rootpath)
 }
@@ -76,7 +80,9 @@ function removeFile(rootpath) {
 	let options = {url: url, method: "DELETE"}
 
 	curlreq.request(options, function (err, data) {
-		console.log(err)
+		if(err){
+			console.log(err)
+		}
 	})
 	console.log("File removed @ "+ rootpath)
 }
